@@ -1,0 +1,91 @@
+/* EJERCICIO 1 */
+.azul{
+    border:4px solid blue;
+}
+
+.verde{
+    border: 4px dotted green;
+}
+
+.violeta{
+    border: 4px dashed purple;
+}
+
+.mixto{
+    border: 3px solid;
+    border-color: orange crimson pink gold;
+}
+
+.caja-borders{
+    width: 50%;
+}
+
+
+/* EJERCICIO 2 */
+.figuras{
+    width: 30%;
+}
+
+.f-azul{
+    height: 150px;
+    background-color: darkblue;
+    border-radius: 30px 30px 0 0;
+    margin: 20px;
+}
+
+.f-verde{
+    height: 150px;
+    background-color: green;
+    margin: 20px;
+    border-radius: 0 0 55px 55px;
+}
+
+.f-morada{
+    margin: 20px;
+    background-color: purple;
+    height: 120px;
+    width: 120px;
+    border-radius: 65px 65px 65px 65px;
+}
+
+
+/* EJERCICIO 3 */
+.formas{
+    display: grid;
+    grid-template-columns: repeat(3, 140px);
+    gap: 25px 30px;
+    padding: 15px;
+}
+
+.forma{
+    height: 45px;
+    display: grid;
+    background: #444;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.A{border-radius: 0 0 40px 0}
+
+.B{border-bottom-right-radius: 40px 20px;}
+
+.C{border-bottom-right-radius: 20px 40px;}
+
+.D{
+    border-top-right-radius:40px; 
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.E{
+    border-top-right-radius:7px 15px; 
+    border-bottom-left-radius:7px 15px;
+    border-top-left-radius: 15px 7px;
+    border-bottom-right-radius:15px 7px;
+}
+
+.F{border-bottom-right-radius: 20px 40px; }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio9</title>
+</head>
+
+<body>
+    <form method="POST">
+        <div style="border: 3px solid lightblue;">
+            <h1>Formularios en HTML5</h1>
+
+            <p>Alumno: Alejandro López Martínez</p>
+
+            <p><label for="Nombre">Tu nombre: (*)</label><br>
+                <input type="text" name="" id="Nombre" maxlength="40" size="40" required>
+            </p>
+
+            <p><label for="Correo">Correo electrónico: (*)</label><br>
+                <input type="text" id="Correo" maxlength="40" size="40" placeholder="usuario@dominio.com" required>
+            </p>
+
+            <p><label for="Contraseña">Contraseña: (*)</label><br>
+                <input type="password" id="Contraseña" maxlength="7" size="7" required>
+            </p>
+
+            <p>
+                <label for="Fecha">Fecha de nacimiento</label><br>
+                <input type="date" id="Fecha" value="2023-10-04">
+            </p>
+
+            <p>
+                Selecciona tu personaje preferido:<br>
+                <input type="radio" id="personaje" value="flash">
+                <label>Flash Gordon</label><br>
+
+                <input type="radio" id="personaje" value="ming">
+                <label>Ming, el despiadado</label><br>
+
+                <input type="radio" id="personaje" value="aura" checked>
+                <label>La Princesa Aura</label><br>
+
+                <input type="radio" id="personaje" value="vultan">
+                <label>Príncipe Vultan</label><br>
+
+                <input type="radio" id="personaje" value="dale">
+                <label>Dale Arden</label>
+            </p>
+
+            <p>
+                <label for="comics">¿Cuántos cómics de Flash Gordon lees a la semana?</label><br>
+                <input type="range" id="comics" min="1" max="7" value="2">
+            </p>
+
+            <p>
+                <label for="color">¿Color ideal de las mallas de Flash Gordon?</label><br>
+                <input type="color" value="#FF0000">
+            </p>
+
+            <p>
+                <label for="paginas">¿Cuántas páginas de comics de Flash Gordon te lees al día?</label><br>
+                <input type="number" id="paginas" min="10" max="300" value="100">
+            </p>
+
+            <p align="center">
+
+                <input type="submit" value="Enviar los datos">
+                <input type="reset" value="Resetear">
+
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>

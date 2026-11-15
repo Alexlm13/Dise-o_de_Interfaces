@@ -1,0 +1,19 @@
+section>p{
+    color: blue;
+}
+
+section>h2{
+    background-color: gray;
+}
+
+div>p{
+    font-size: 20px;
+}
+
+section>div>p{
+    text-decoration: underline;
+}
+
+p{
+    color: black;
+}

@@ -1,0 +1,32 @@
+.destacado{
+    background-color: yellow;
+}
+
+p.destacado{
+    color: blue;
+}
+
+p#aviso-texto{
+    font-weight: bold;
+}
+
+#aviso{
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+
+/*.destacado{
+    color: green;
+}*/
+
+/*p .destacado{
+    color:brown;
+}*/
+
+/*p, .destacado{
+    color:pink
+}*/
+
+/*Prevalece el estilo p, .destacado porque esta cogiendo a todoso los p, pero no cambia #aviso
+ya que este es mas especifico*/

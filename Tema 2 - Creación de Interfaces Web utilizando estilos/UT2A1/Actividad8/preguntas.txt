@@ -1,0 +1,11 @@
+a) ¿Qué selectores has utilizado para cumplir los requisitos?
+    Universales como el *, de etiqueta, body y header, múltiples h1, h2, de clase .activo, .destacado
+    de identificador #aviso-precios, de atributos [href^="https"] y combinadores de descendencia, > y +
+
+b) ¿Qué diferencia hay entre aplicar estilos a section p y a section > p?
+    El primero selecciona todos lo parrafos que estén dentro de un section aunque estén dentro de otros
+    elementos, y el otro selecciona solo a los párrafos que sean hijos directos de section.
+
+c) ¿Qué ventajas tiene combinar selectores en una misma hoja de estilos?
+    Permite reutilizar reglas, evitar escribir código repetido y aplicar estilos a elementos concretos
+    para tener un css más organizado.

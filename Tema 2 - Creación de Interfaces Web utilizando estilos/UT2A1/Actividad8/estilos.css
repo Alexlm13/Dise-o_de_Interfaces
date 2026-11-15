@@ -1,0 +1,48 @@
+*{
+    padding: 5px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    color:green;
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+}
+
+nav a.activo{
+    background-color: blue;
+}
+
+section p{
+    margin-bottom: 10px;
+}
+
+section > p{
+    border: 1px solid red;
+}
+
+p.destacado{
+    background-color:yellow;
+}
+
+.oferta p{
+    background-color: grey;
+}
+
+a[href^="https"]{
+    color: green;
+}
+
+#aviso-precios{
+    font-weight: bold;
+    background-color: lightyellow;
+}
+
+h1 + .subtitulo{
+    color: orange;
+    font-style: italic
+}

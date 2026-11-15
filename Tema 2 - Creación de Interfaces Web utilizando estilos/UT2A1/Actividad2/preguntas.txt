@@ -1,0 +1,9 @@
+a) ¿Por qué el selector section p también selecciona los párrafos que están dentro del div?
+    Porque estás indicando que sean todos los p dentro de section, no los hijos.
+
+b) ¿Qué diferencia existe entre section p y div p?
+    Uno cogerá todos los p dentro de un section y el otro todos los p dentro de un div.
+
+c) ¿Qué ocurre cuando una regla general y otra más específica establecen valores distintos 
+para una misma propiedad? Comprueba el resultado en el navegador.
+    Que la específica prevalece.

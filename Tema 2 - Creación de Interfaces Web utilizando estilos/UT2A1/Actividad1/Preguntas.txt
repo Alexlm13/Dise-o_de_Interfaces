@@ -1,0 +1,9 @@
+a) ¿Cuántos elementos reciben los estilos de la clase importante?
+    2
+    
+b) ¿Por qué el selector #especial solo afecta al párrafo que tiene ese identificador?
+    Porque tiene un identificador y los identificadores solo afectan a 1.
+
+c) ¿Qué diferencia existe entre escribir .importante y p.importante?
+    Que si existiera más de una clase importante se aplicaría a todos, pero si le ponemos
+    p delante solo afecta a los que tengan esa clase pero con la etiqueta p

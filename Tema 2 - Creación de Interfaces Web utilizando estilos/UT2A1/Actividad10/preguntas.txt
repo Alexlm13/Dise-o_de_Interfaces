@@ -1,0 +1,3 @@
+¿Qué propiedades se heredan de la cabecera y cuáles no?
+Se heredan: color y font-family. En este caso, el <h1> y el párrafo «Aprende tecnología.» heredan el color blanco y la tipografía definida en header, salvo que otra regla los modifique.
+No se heredan: background-color, border, padding y margin. Por ejemplo, el fondo oscuro de header no se aplica automáticamente al <h1> ni al párrafo.

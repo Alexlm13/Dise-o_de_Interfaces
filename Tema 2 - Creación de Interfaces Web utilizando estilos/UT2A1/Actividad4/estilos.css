@@ -1,0 +1,15 @@
+.contenedor p{
+    color: blue;
+}
+
+.contenedor>p{
+    color: red;
+}
+
+section>p{
+    background-color: gray;
+}
+
+div>div>p{
+    border: 1px solid black;
+}

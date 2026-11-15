@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de inscripción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <form method="POST">
+
+        <div class="contenedor">
+
+            <!-- TÍTULO -->
+            <div class="titulo">
+                <h2>HOJA DE INSCRIPCIÓN</h2>
+                <h3>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h3>
+            </div>
+
+
+            <!-- DATOS PERSONALES -->
+            <fieldset class="datos">
+
+                <legend>Datos Personales</legend>
+
+                <div class="datos-contenido">
+                    <div class="campo nombre">
+                        <label>Nombre:</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="campo apellidos">
+                        <label>Apellidos:</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="campo dni">
+                        <label>DNI</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="campo localidad">
+                        <label>Localidad de Nacimiento</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="campo provincia">
+                        <label>Provincia:</label>
+                        <select>
+                            <option selected>Huelva</option>
+                            <option>Cádiz</option>
+                            <option>Córdoba</option>
+                            <option>Sevilla</option>
+                            <option>Jaén</option>
+                            <option>Málaga</option>
+                            <option>Granada</option>
+                            <option>Almería</option>
+                        </select>
+                    </div>
+
+                    <div class="campo fecha">
+                        <label>Fecha de Nacimiento</label>
+                        <input type="date">
+                    </div>
+
+                    <div class="campo direccion">
+                        <label>Dirección</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="campo codigo-postal">
+                        <label>Código Postal:</label>
+                        <input type="number">
+                    </div>
+
+                </div>
+
+            </fieldset>
+
+
+            <!-- FORMA DE ACCESO -->
+            <fieldset class="forma">
+
+                <legend>Forma de Acceso</legend>
+
+                <div class="forma-contenido">
+
+                    <div class="acceso-principal">
+                        <input type="radio" name="acceso" value="directo">
+                        <label>Directo</label>
+                    </div>
+
+                    <div class="subopciones">
+
+                        <div class="subopcion">
+                            <input type="radio" name="tipo-directo" value="bachillerato">
+                            <label>Bachillerato Log Modalidad</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="subopcion">
+                            <input type="radio" name="tipo-directo" value="experimental">
+                            <label>Experimental</label>
+                        </div>
+
+                        <div class="subopcion">
+                            <input type="radio" name="tipo-directo" value="cou">
+                            <label>COU Opción</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="subopcion">
+                            <input type="radio" name="tipo-directo" value="fp2">
+                            <label>FP2</label>
+                        </div>
+
+                        <div class="subopcion">
+                            <input type="radio" name="tipo-directo" value="otros">
+                            <label>Otros (especifique)</label>
+                            <input type="text">
+                        </div>
+
+                    </div>
+
+                    <div class="acceso-principal prueba">
+                        <input type="radio" name="acceso" value="prueba-libre">
+                        <label>Prueba Libre</label>
+                    </div>
+
+                </div>
+
+            </fieldset>
+
+
+            <!-- DOCUMENTOS ADJUNTADOS -->
+            <fieldset class="documentos">
+
+                <legend>Documentos Adjuntados</legend>
+
+                <div class="documentos-contenido">
+
+                    <div class="documento">
+                        <input type="checkbox" id="dni">
+                        <label for="dni">Fotocopia DNI</label>
+                    </div>
+
+                    <div class="documento certificado">
+                        <input type="checkbox" id="certificado">
+                        <label for="certificado">Certificado Académico</label>
+                    </div>
+
+                    <div class="documento otros">
+                        <input type="checkbox" id="otros">
+                        <label for="otros">Otros documentos (especifique)</label>
+                        <input type="text" id="otros-texto">
+                    </div>
+
+                </div>
+
+            </fieldset>
+
+
+            <input type="submit" id="enviarSolicitud" value="Enviar Solicitud">
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>

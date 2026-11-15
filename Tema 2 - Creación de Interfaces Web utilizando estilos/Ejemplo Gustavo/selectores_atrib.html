@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores de Atributo</title>
+    <link rel="stylesheet" href="atributos.css">
+</head>
+<body>
+    <h2>Selectores de Atributo: permiten seleccionar elementos HTML</h2>
+    <h2>basados en sus atributos o valores de atributos.</h2>
+
+    <h3>1. Existencia del atributo. Selecciona cualquier elemento que tenga ese atributo, sin importar su valor:</h3>
+
+    <a href="https://example.com">Enlace con destino</a><br>
+    <a title="Sin enlace">Enlace sin href</a>
+
+<h3>2. Valor del atributo. [attr="valor"]</h3>
+
+<input type="text" placeholder="Escribe tu nombre">
+<input type="password" placeholder="Escribe tu contraseña">
+
+<h3>3. Valor dentro de una lista separada por espacios. [attr~="valor"]</h3>
+
+<div class="tarjeta destacado principal">Noticia 1</div>
+<div class="tarjeta normal">Noticia 2</div>
+
+<h3>4. Empieza con un valor específico. [attr^="valor"]</h3>
+
+<a href="https://google.com">Sitio seguro</a>
+<a href="http://inseguro.com">Sitio no seguro</a>
+
+<h3>5. Termina con un valor específico. [attr$="valor"]</h3>
+
+<a href="documento.pdf">Descargar PDF</a>
+<a href="imagen.png">Ver imagen</a>
+
+<h3>6. Contiene un subtexto en cualquier posición. [attr*="valor"]</h3>
+
+<a href="https://youtube.com">Video de YouTube</a>
+<a href="https://example.com">Otro sitio</a>
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+a) ¿Por qué el párrafo 3 cumple el selector .contenedor p, pero no .contenedor > p?
+    porque son todos los p de .contenedor, no que sean hijos directos de .contenedor.
+
+b) ¿Qué diferencia existe entre el espacio y el símbolo >?
+    Que > solo coge a descendientes directos y espacio a todos.
+
+c) ¿Cuántos párrafos selecciona cada uno de los dos primeros selectores?
+    El primero coge a todos los descendientes de p y el otro solo a hijos directos.

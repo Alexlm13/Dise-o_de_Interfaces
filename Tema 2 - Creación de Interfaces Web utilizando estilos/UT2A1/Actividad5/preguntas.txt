@@ -1,0 +1,9 @@
+a) ¿Es suficiente con que dos elementos sean hermanos para que se aplique el selector adyacente?
+    No, deben ser adyacentes.
+
+b) ¿Qué ocurre cuando se introduce otro elemento entre ambos?
+    Que no funcionará debido a que el adyacente sería el nuevo incorporado junto con el primero.
+
+c) ¿Puede un selector adyacente seleccionar elementos que no tienen el mismo padre?
+    No, el selector adyacente solo puede seleccionar elementos hermanos que comparten el mismo 
+    padre y están juntos.

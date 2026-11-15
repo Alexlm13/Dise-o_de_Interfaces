@@ -1,0 +1,79 @@
+/* 1. Selector universal */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. Tipografía común */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 3. Estilo común para h1 y h2 */
+h1, h2 {
+    color: blue;
+}
+
+/* 4. Cabecera y pie de página */
+header {
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    background-color: lightgray;
+    color: black;
+}
+
+/* 5. Todos los párrafos de main */
+main p {
+    font-size: 16px;
+}
+
+/* 6. Párrafos hijos directos de section */
+section > p {
+    border: 1px solid red;
+}
+
+/* Párrafos dentro de section, incluidos los anidados */
+section p {
+    color: darkblue;
+}
+
+/* 7. Párrafo con clase importante */
+p.importante {
+    background-color: yellow;
+}
+
+/* 8. Enlace de navegación seleccionado */
+nav a.seleccionado {
+    background-color: orange;
+    color: white;
+}
+
+/* 9. Enlaces con atributo title */
+a[title] {
+    text-decoration: underline;
+}
+
+/* 10. Enlaces cuyo href termina en .pdf */
+a[href$=".pdf"] {
+    color: red;
+}
+
+/* 11. Enlaces cuyo href comienza por https */
+a[href^="https"] {
+    color: green;
+}
+
+/* 12. Elemento con id aviso */
+#aviso {
+    background-color: lightyellow;
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+/* 13. Subtítulo inmediatamente después de h1 */
+h1 + p {
+    color: purple;
+    font-style: italic;
+}

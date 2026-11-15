@@ -1,0 +1,14 @@
+titulo: es incorrecto porque selecciona la etiqueta titulo y es h1
+
+#texto: solo selecciona el elemento que tiene el identificador texto
+Si queremos seleccionar los dos primeros párrafos necesitamos otro selector.
+
+p destacado: Busca un elemento <destacado> dentro de un párrafo. Para seleccionar un párrafo con la clase destacado, debemos escribir p.destacado.
+
+div > p: Solo selecciona los párrafos que son hijos directos de un div. Si el párrafo del disco SSD no está dentro de un div de esa forma, no se seleccionará.
+
+p + a: Selecciona un enlace que aparece inmediatamente después de un párrafo. Si el enlace del manual no está colocado así en el HTML, no se seleccionará.
+
+a[href$="pdf"]: Puede funcionar si el enlace termina en pdf, pero es más preciso escribir a[href$=".pdf"] para incluir el punto de la extensión.
+
+a[title~="Manual"]: Esta regla es correcta. Selecciona los enlaces cuyo atributo title contiene la palabra completa Manual, separada por espacios.

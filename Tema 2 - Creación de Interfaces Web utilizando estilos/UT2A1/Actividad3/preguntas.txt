@@ -1,0 +1,9 @@
+a) ¿Puede utilizarse la misma clase en un encabezado, un párrafo y un enlace?
+    Si, las clases se pueden aplicar a muchos.
+
+b) ¿Puede repetirse un mismo identificador en varios elementos de una página? ¿Por qué?
+    No porque un identificador solo sirve para un elemento.
+
+c) ¿Qué selector utilizarías para aplicar un estilo a todos los elementos de una clase y 
+cuál para restringirlo a los párrafos de esa clase?
+    . para todos y p. para los de párrafos

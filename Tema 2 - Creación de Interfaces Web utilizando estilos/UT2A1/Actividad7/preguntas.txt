@@ -1,0 +1,8 @@
+a) ¿Qué propiedades del padre se heredan normalmente por los hijos en este ejemplo?
+    Se heredan normalmente el color del texto y el tamaño
+
+b) ¿Se heredan automáticamente todas las propiedades CSS?
+    No, solo algunas como background, border y padding
+
+c) ¿El borde del contenedor se transmite a los párrafos? Razona tu respuesta.
+    No, el borde no se transmite a lo párrafos porque la propiedad no se hereda automáticamente.

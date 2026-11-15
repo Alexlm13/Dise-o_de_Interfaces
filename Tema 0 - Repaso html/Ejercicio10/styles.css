@@ -1,0 +1,278 @@
+/* GENERAL */
+
+body {
+    margin: 0;
+    padding: 33px 28px;
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+}
+
+.contenedor {
+    border: 2px solid #00aeef;
+    padding: 5px;
+    min-height: 510px;
+    box-sizing: border-box;
+}
+
+
+/* TÍTULO*/
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h2 {
+    margin: 8px 0 14px;
+    font-size: 25px;
+}
+
+.titulo h3 {
+    margin: 0 0 24px;
+    font-size: 23px;
+}
+
+
+/* FIELDSETS */
+
+fieldset {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+legend {
+    background-color: white;
+    border: 1px solid #999;
+    padding: 0 3px;
+    font-size: 13px;
+}
+
+
+/* DATOS PERSONALES */
+
+.datos {
+    height: 132px;
+    background-color: #bcbcbc;
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+.datos-contenido {
+    display: grid;
+
+    grid-template-columns: 125px 125px 125px 125px 125px 125px;
+
+    grid-template-rows: 35px 35px 35px;
+
+    column-gap: 8px;
+    row-gap: 0;
+}
+
+
+/* Cada campo: etiqueta arriba e input debajo */
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    height: 16px;
+}
+
+.campo input,
+.campo select {
+    height: 18px;
+    box-sizing: border-box;
+    padding: 0 2px;
+}
+
+
+/* FILA 1 */
+
+.nombre {
+    grid-column: 1 / 2;
+}
+
+.apellidos {
+    grid-column: 2 / 3;
+}
+
+.dni {
+    grid-column: 3 / 4;
+}
+
+
+/* FILA 2 */
+
+.localidad {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.provincia {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+.fecha {
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
+
+
+/* FILA 3 */
+
+.direccion {
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+.direccion input {
+    width: 233px;
+}
+
+.codigo-postal {
+    grid-column: 3 / 4;
+    grid-row: 3;
+}
+
+
+/* FORMA DE ACCESO */
+
+.forma {
+    height: 160px;
+    margin-top: 7px;
+    background-color: #f1c29b;
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+.forma-contenido {
+    margin-left: 28px;
+}
+
+
+/* Directo y Prueba Libre */
+
+.acceso-principal {
+    height: 17px;
+}
+
+.acceso-principal input {
+    margin: 0 3px 0 0;
+    vertical-align: middle;
+}
+
+.acceso-principal label {
+    vertical-align: middle;
+}
+
+
+/* Opciones que dependen de Directo */
+
+.subopciones {
+    margin-left: 27px;
+}
+
+.subopcion {
+    height: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.subopcion input[type="radio"] {
+    margin: 0 3px 0 0;
+}
+
+.subopcion label {
+    margin-right: 4px;
+}
+
+
+/* Cajas de texto de las opciones */
+
+.subopcion input[type="text"] {
+    width: 130px;
+    height: 18px;
+    box-sizing: border-box;
+}
+
+
+/* La caja de Bachillerato */
+
+.subopcion:first-child input[type="text"] {
+    width: 130px;
+}
+
+
+/* Prueba libre */
+
+.prueba {
+    margin-top: 2px;
+}
+
+
+/* DOCUMENTOS */
+
+.documentos {
+    height: 61px;
+    margin-top: 7px;
+    background-color: #b88080;
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+.documentos-contenido {
+    display: grid;
+    grid-template-columns: 130px 190px;
+    grid-template-rows: 20px 20px;
+    column-gap: 0;
+}
+
+
+/* Fotocopia DNI */
+
+.documento {
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.documento input[type="checkbox"] {
+    margin: 0 5px 0 0;
+}
+
+
+/* Certificado */
+
+.certificado {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+
+/* Otros */
+
+.otros {
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+.otros input[type="text"] {
+    width: 130px;
+    height: 18px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+
+
+   /*BOTÓN*/
+
+
+#enviarSolicitud {
+    margin-top: 10px;
+    padding: 2px 5px;
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+}

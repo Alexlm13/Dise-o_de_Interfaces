@@ -1,0 +1,13 @@
+a) ¿Por qué a[class="externo"] no selecciona el enlace que tiene class="externo destacado"?
+    Porque selecciona únicamente los enlaces cuyo atributo sea exactamente "externo".
+
+b) ¿Qué diferencia existe entre los operadores ~= y *=?
+    La primera selecciona cuando el atributo contiene una palabra completa separada por espacios.
+    La otra selecciona cuando contiene una cadena de caracteres, aunque forme parte de otra palabra.
+
+c) ¿Qué diferencia existe entre los operadores ^= y $=?
+    La primera selecciona los atributos cuyo valor empieza por el texto indicado y el otro los que terminan.
+
+d) ¿Qué ocurre con los enlaces que no tienen el atributo title?
+    Los que no tienen el atributo title no serán seleccionados, aunque podrán ser seleccionados
+    por otras reglas si cumplen las condiciones.
