@@ -1,0 +1,19 @@
+input:required{
+    border: 2px solid blue;
+}
+
+input:required+span::after{
+    content: "Obligatorio";
+    color: blue;
+    margin-left: 8px;
+}
+
+input:optional{
+    border: 2px solid gray;
+}
+
+input:optional+span::after{
+    content: "Opcional";
+    color: gray;
+    margin-left: 8px;
+}

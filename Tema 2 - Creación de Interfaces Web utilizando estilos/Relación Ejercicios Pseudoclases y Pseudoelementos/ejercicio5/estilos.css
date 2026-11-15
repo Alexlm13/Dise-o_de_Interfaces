@@ -1,0 +1,21 @@
+input:valid{
+    border: 2px solid green;
+}
+
+input:invalid{
+    border: 2px solid red
+}
+
+input:focus{
+    border: 2px solid violet;
+    outline: none;
+}
+
+input {
+    border: 2px solid gray;
+    padding: 4px;
+}
+
+input:required {
+    border-width: 3px;
+}

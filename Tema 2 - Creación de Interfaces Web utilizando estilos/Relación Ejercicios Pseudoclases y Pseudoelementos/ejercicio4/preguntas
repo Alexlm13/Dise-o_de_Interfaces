@@ -1,0 +1,13 @@
+a) ¿Qué diferencia existe entre :required y :optional?
+    required para los campos con el atributo required y optional para los que no lo tienen
+
+b) ¿Qué sucede si un usuario intenta enviar el formulario sin completar un campo obligatorio?
+    Pues que no se envía.
+
+c) ¿Es suficiente con aplicar un borde de color para indicar que un campo es obligatorio? Justifica tu
+respuesta.
+    No, porque si una persona sufre de daltonismo no podria ver el color y por eso se pone la etiqueta de texto.
+
+d) ¿Qué diferencia existe entre una pseudoclase y un pseudoelemento?
+    La pseudoclase selecciona un elemento existente segun su estado.
+    El pseudoelemento selecciona o crea una parte de un elemento.

@@ -1,0 +1,11 @@
+a) ¿Qué diferencia existe entre una casilla marcada y otra sin marcar?
+    Que una está marcada y ota no
+
+b) ¿Qué hace la pseudoclase :checked?
+    Selecciona los elementos que están marcados
+
+c) ¿Qué función desempeña el selector + en input:checked + label?
+    junta los label que van despues de un input.
+
+d) ¿Qué ventaja tiene utilizar etiquetas label asociadas correctamente a los campos?
+    Mejorar la accesibilidad, permitiendo seleccionar un campo haciendo clic en el texto asociado

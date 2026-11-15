@@ -1,0 +1,11 @@
+a) ¿Qué diferencia existe entre :hover y :active?
+    hover se activa solamente cuando pasas el cursor por encima, active cuando clicas.
+
+b) ¿Cómo puedes comprobar el funcionamiento de :focus sin utilizar el ratón?
+    con el tabulador.
+
+c) ¿Qué diferencia existe entre :link y :visited?
+    link afecta a enlaces no visitados y visited los ya visitados.
+
+d) ¿Por qué es importante mantener visible el foco de los elementos interactivos?
+    Es importante porque permite identificar que elemento es seleccionado al navegar con el teclado

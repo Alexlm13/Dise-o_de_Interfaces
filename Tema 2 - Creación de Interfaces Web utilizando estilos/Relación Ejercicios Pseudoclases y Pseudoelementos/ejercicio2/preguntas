@@ -1,0 +1,11 @@
+a) ¿Qué diferencia existe entre un campo habilitado y uno deshabilitado?
+    Que uno es seleccionable y otro no.
+
+b) ¿Puede un usuario modificar un campo que tiene el atributo disabled?
+    No puede
+
+c) ¿Qué sucede cuando un campo recibe el foco?
+    Que cuando clicamos sobre el cambia segun tu le añadas al css
+
+d) ¿Qué pseudoclase utilizarías para aplicar el mismo estilo a todos los campos habilitados?
+    :enabled
