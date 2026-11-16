@@ -1,0 +1,129 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 15px;
+}
+
+.caja {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.help {
+    cursor: help;
+}
+
+.move {
+    cursor: move;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.progres {
+    cursor: progress;
+}
+
+.text {
+    cursor: text;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.vertical-text {
+    cursor: vertical-text;
+}
+
+.alias {
+    cursor: alias;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.grab {
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: grabbing;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.ew-resize {
+    cursor: ew-resize;
+}
+
+.ns-resize {
+    cursor: ns-resize;
+}
+
+.nwse-resize {
+    cursor: nwse-resize;
+}
+
+.nesw-resize {
+    cursor: nesw-resize;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.none {
+    cursor: none;
+}
+
+.personalizado {
+    cursor: url("./img/hand_point.png"), auto;
+}
+
+
+/* COLORES */
+.crosshair, .grabbing { background-color: #ae4130; }
+.help, .zoom-in, .nesw-resize { background-color: #9059ac; }
+.move, .zoom-out, .col-resize { background-color: #407cb0; }
+.pointer, .not-allowed, .row-resize { background-color: #4f95d3; }
+.progress, .context-menu { background-color: #4ea287; }
+.text, .copy { background-color: #e5c340; }
+.wait, .ew-resize, .none { background-color: #d98036; }
+.vertical-text, .ns-resize, .personalizado { background-color: #96a4a5; }
+.alias, .nwse-resize { background-color: #2c3b4a; }
+.no-drop { background-color: #7b7b7b; }
+.grab { background-color: #000; }
